@@ -1,150 +1,119 @@
-
-<!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
-
+  <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>黑苹果 | 闫涛的笔记</title>
-<meta name="description" content="学而时习之，温故而知新">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-
-<link rel="shortcut icon" href="https://azcat.github.io//favicon.ico">
+<link rel="shortcut icon" href="https://azcat.github.io//favicon.ico?v=1557811882150">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="https://azcat.github.io//styles/main.css">
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
 
 
   </head>
   <body>
-    <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="https://azcat.github.io/">
-        <img class="avatar" src="https://azcat.github.io//images/avatar.png" alt="" width="32px" height="32px">
-      </a>
-      <a href="https://azcat.github.io/">
-        <h1 class="site-title">闫涛的笔记</h1>
-      </a>
-    </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://azcat.github.io/">
+  <img class="avatar" src="https://azcat.github.io//images/avatar.png?v=1557811882150" alt="">
+  </a>
+  <h1 class="site-title">
+    闫涛的笔记
+  </h1>
+  <p class="site-description">
+    学而时习之，温故而知新
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
   </div>
 </div>
 
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
-      
-        
-          <a href="/" class="menu purple-link">
-            首页
-          </a>
-        
-      
-        
-          <a href="/archives" class="menu purple-link">
-            归档
-          </a>
-        
-      
-        
-          <a href="/tags" class="menu purple-link">
-            标签
-          </a>
-        
-      
-        
-          <a href="/post/about" class="menu purple-link">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-</transition>
-
-
-      <div class="content-container">
-
         <div class="current-tag-container">
-          <h2 class="title">
-            <i class="icon icon-pricetags-outline"></i> 黑苹果
-          </h2> 
+            <h2 class="title">
+                标签：#黑苹果
+            </h2> 
         </div>
-
-        
-<section class="post-item">
-    <div class="content">
+        <div class="post-container">
+  
+    <article class="post">
       <a href="https://azcat.github.io//post/hei-ping-guo-wu-fa-deng-lu-app-store">
         <h2 class="post-title">黑苹果无法登陆APP STORE</h2>
       </a>
+      <div class="post-info">
+        <time class="post-time">
+          · 2019-03-22 ·
+        </time>
+        
+          <a href="https://azcat.github.io//tag/2cJ2Bwpnn" class="post-tag">
+            # 黑苹果
+          </a>
+        
+      </div>
+      
+        <a href="https://azcat.github.io//post/hei-ping-guo-wu-fa-deng-lu-app-store" class="post-feature-image" style="background-image: url('https://azcat.github.io//post-images/hei-ping-guo-wu-fa-deng-lu-app-store.png')">
+        </a>
+      
       <div class="post-abstract">
         
-      </div>
-      <div class="post-info">
-        <span><i class="icon icon-calendar-outline"></i> 2019-03-22</span>
-        
-          <span>
-            <i class="icon icon-pricetags-outline"></i>
-            
-              <a href="https://azcat.github.io//tag/2cJ2Bwpnn">
-                黑苹果
-                
-              </a>
-            
-          </span>
-        
-      </div>
-    </div>
-    
-      <a href="https://azcat.github.io//post/hei-ping-guo-wu-fa-deng-lu-app-store">
-        <div class="feature-container" style="background-image: url('https://azcat.github.io//post-images/hei-ping-guo-wu-fa-deng-lu-app-store.png')">
-        </div>
-      </a>
-    
-  </section>
+      </di>
+    </article>
+  
+</div>
 
-
-<div class="pagination-container">
+        <div class="pagination-container">
   
   
 </div>
 
-
-      </div>
-
-      <div class="site-footer">
-  <div class="slogan">学而时习之，温故而知新</div>
+        <div class="site-footer">
   Powered by Hve Notes
 </div>
 
-
-    </div>
-    <script type="application/javascript">
-
-hljs.initHighlightingOnLoad()
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-
-
+      </div>
+    </div>
   </body>
 </html>
